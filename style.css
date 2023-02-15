@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    
+}
+body{
+    box-sizing: border-box;
+}
+.indexForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.indexForm label{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+.btn{
+    margin-top: 10px;
+}
+
+.list{
+    width: 500px;
+    height: auto;
+
+}
+.listElement{
+    border:1px solid black;
+    list-style: none;
+
+}
