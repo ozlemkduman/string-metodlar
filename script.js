@@ -75,3 +75,6 @@ let ad="          Özlem karaduman çocuk besliyor. Onun iki çocuk sahibi olmas
 
     console.log(ad.split(" "));
     console.log(ad.split("çocuk"));
+
+
+
