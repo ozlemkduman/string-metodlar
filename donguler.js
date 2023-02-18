@@ -54,8 +54,6 @@ while (sayac <= 10) {
 
 aile.forEach((fert) => console.log(fert));
 
-
-
 aile.forEach(function (fert, index, array) {
   console.log(fert + " bu kişi " + index + " da yer alır");
   console.log(array);
@@ -63,37 +61,18 @@ aile.forEach(function (fert, index, array) {
 
 // do While //  şart aramadan 1 kez çalışır ve sonra şart uyarsa döngüye devam eder
 
-let pc=0
-do{
-    console.log("aile");
-    pc++;
-
-}while(pc<=8)
-
+let pc = 0;
+do {
+  console.log("aile");
+  pc++;
+} while (pc <= 8);
 
 
 
-// filter //   filtreleme yöntemidir
-
-let uzun = aile.filter((fert) => fert.length > 5);
-console.log(uzun);
-
-// map //   forEach e çok benzerdir fakat forEach'in aksine döndürülen değer değişken içerisine atanır
-
-let upperAile = aile.map((fert) => fert.toUpperCase());
-
-console.log(upperAile);
-
-let firstUpperAile = aile.map((fert) => (
-    fert[0].toUpperCase()+fert.slice(1).toLowerCase()
-));
-
-console.log(firstUpperAile);
 
 
-let lowerAile=aile.map(fert=>(fert.toLowerCase()))
 
-console.log(lowerAile);
+
 
 
 
