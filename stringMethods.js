@@ -1,10 +1,14 @@
 let dizi=["Hakan","Emre","Gürcan","Efe","Kadir"]
 let dizi2=["11","22","33","44","55"]
-let ad="          Özlem karaduman çocuk besliyor. Onun iki çocuk sahibi olması annesinin melami oluşundan kaynaklıdır."
+let ad="Özlem karaduman çocuk besliyor. Onun iki çocuk sahibi olması annesinin melami oluşundan kaynaklıdır."
 // slice // verilen iki parametre arasındaki değeri alır. tek parametre verilirse o indexten sonraki değerleri alır.
 
   console.log(ad.slice(5,10))
   console.log(ad.slice(5));
+
+// indexOf() // verilen string değerin kaçıncı indexte başladığını gösterir.
+
+console.log(ad.indexOf("sahibi"));
 
 // length // değişkenin değer uzunluğunu verir
 
@@ -12,7 +16,7 @@ let ad="          Özlem karaduman çocuk besliyor. Onun iki çocuk sahibi olmas
 
 // substring // değişkenin verilen iki parametre arası değeri alır
 
-  console.log(ad.substring(7,10));
+  console.log(ad.substring(20,25));
 
 
 // substr // verilen ilk parametre ile başlangıç indexi belirlenir ve  verilen ikinci parametre kadar değer alınır. tek parametre de çalışır.  Eğer -1 gibi negatir parametre verilirse değişkenin sondaki değerinden başlar
@@ -50,7 +54,7 @@ let ad="          Özlem karaduman çocuk besliyor. Onun iki çocuk sahibi olmas
     let newAdStart=ad.trimStart();
     console.log(newAdStart);
 
-// trimStart() // değişkende başta bulunan boşlukları geçersiz sayarak yeni bir string değişken oluşturur.
+// trimEnd() // değişkende başta bulunan boşlukları geçersiz sayarak yeni bir string değişken oluşturur.
    
     let newAdLast=ad.trimEnd();
     console.log(newAdLast);
@@ -72,6 +76,8 @@ let ad="          Özlem karaduman çocuk besliyor. Onun iki çocuk sahibi olmas
     console.log(ad.charCodeAt(18));
 
 // split() // verilen parametreyi değişkende seperatör olarak kullanarak dizi oluşturur.
+
+// yani verilen değeri çıkararak o bölümden diziler oluşturur.
 
     console.log(ad.split(" "));
     console.log(ad.split("çocuk"));

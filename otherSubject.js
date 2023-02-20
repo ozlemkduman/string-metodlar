@@ -104,3 +104,15 @@ let insan=true;   // hatalı kod
         alert(err);
     }
     
+// fetch API //    datada saklanan verileri istenilen yere aktarma
+
+fetch("data.json").then(  //then ile datayı datayı al ve bu datadan işlem yap demiş oluyoruz 
+  response=>{
+    console.log(response);
+    return response.json();  // response artık json dosyasını döndürüyor
+
+  }).then(responseJson=>{ // then ile başka bir işlem yapma
+    console.log(responseJson);
+    console.log(responseJson.name);
+    console.log(responseJson.name.indexOf("z"));
+  })
