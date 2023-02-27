@@ -101,7 +101,7 @@ let insan=true;   // hatalı kod
             throw "burası boş"  //hatayı belirt
         };
     }catch(err){   // hatayı yazdır/bildir
-        alert(err);
+        console.log("error");;
     }
     
 // fetch API //    datada saklanan verileri istenilen yere aktarma

@@ -11,6 +11,7 @@ items[2]="Gürcan";
 console.log(items);
 
 // dizinin başına eleman ekleme
+//yeni değişiklik yapıldı
 
 items.unshift(15);
 

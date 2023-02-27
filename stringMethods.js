@@ -1,6 +1,17 @@
 let dizi=["Hakan","Emre","Gürcan","Efe","Kadir"]
 let dizi2=["11","22","33","44","55"]
 let ad="Özlem karaduman çocuk besliyor. Onun iki çocuk sahibi olması annesinin melami oluşundan kaynaklıdır."
+let ailes={
+    üye:"Burcu",
+    yas:35,
+    cocuk:"Ege"
+}
+
+let jsonAile=String(ailes);
+
+console.log(jsonAile);
+
+
 // slice // verilen iki parametre arasındaki değeri alır. tek parametre verilirse o indexten sonraki değerleri alır.
 
   console.log(ad.slice(5,10))
@@ -80,7 +91,7 @@ console.log(ad.indexOf("sahibi"));
 // yani verilen değeri çıkararak o bölümden diziler oluşturur.
 
     console.log(ad.split(" "));
-    console.log(ad.split("çocuk"));
-
+    console.log(ad.split("ç")[2]);
+    
 
 
